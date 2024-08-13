@@ -1,0 +1,58 @@
+UseBean class="apple.Apple" id="banana"
+	new 연산자
+	== Apple banana = new apple();
+
+--------------------------------
+
+scope= session/ page/ request/ application
+
+
+--------------------------------
+ProductDTO
+   int num
+   String name
+   String details // 상품 상세 설명
+   int price
+   int cnt
+   String seller // 판매자
+MemberDTO
+   String mid
+   String password
+   String name 
+   String role // 계정권한
+		user일반회원
+		admin 관리자
+-----------------------------
+
+main.jsp
+   1. 로그인했을때
+      로그아웃 버튼 / 마이페이지 버튼 / 장바구니 버튼
+   2. 로그인안했을때
+      로그인 버튼 / 회원가입 버튼
+   3. 상품 목록 출력
+      상품 선택 버튼
+   4. 상품 검색 버튼
+mypage.jsp
+   1. 이름변경 버튼
+   2. 회원탈퇴 버튼
+   3. 메인으로 돌아가기 버튼
+join.jsp
+   1. 회원가입 버튼
+   2. 메인으로 돌아가기 버튼
+cart.jsp
+   1. 장바구니 목록 출력
+      상품 선택 버튼
+   2. 구매
+   3. 메인으로 돌아가기 버튼
+product.jsp
+   1. 상품 설명 출력
+   2. 장바구니에 추가 버튼
+   3. 메인으로 돌아가기 버튼
+admin.jsp
+   1. 상품추가 버튼
+   2. 상품삭제 버튼
+-------------------------
+1. 이름은 다 지켜주세요
+2. DB 연결할게요
+3. table 구조는 내일 보여드릴게요!
+4. 월요일에 풀이
